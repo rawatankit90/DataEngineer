@@ -61,8 +61,8 @@ database.
 
 1. Database is designed in Star Schema with Fact and Dimensions table.
 2. psycopg2 is utilized to create the tables and insert data into postgres database.
-3. Program is designed in a way to first import the dimension data into songs, artist, user, time and then
-    from theses table do the search query to fill the fact table songplays.
+3. Program is designed in a way to first import the dimension data into `songs`, `artist`, `user`, `time` and then
+    from these table do the search query to fill the fact table `songplays`.
 4. For identifying multiple json files in a directory `os`, `glob` python libraries are used
   To read more on glob https://swcarpentry.github.io/python-novice-inflammation/04-files/
 
